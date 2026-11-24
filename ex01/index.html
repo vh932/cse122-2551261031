@@ -5,7 +5,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bài 01: Trang thơ Bốn mùa</title>
     <style>
-        /* Khai báo các biến màu sắc theo yêu cầu kỹ thuật */
         :root {
             --nen-khung: #FFFDE7;
             --vien-khung: #9E9E9E;
@@ -13,8 +12,6 @@
             --mau-do: #D40000;
             --mau-xanh: #0033CC;
         }
-
-        /* Căn giữa khung bài thơ ra giữa màn hình bằng Flexbox */
         body {
             margin: 0;
             min-height: 100vh;
@@ -23,8 +20,6 @@
             align-items: center;
             font-family: "Times New Roman", Times, serif;
         }
-
-        /* Khung bao bài thơ */
         .khung-tho {
             width: 640px;
             background-color: var(--nen-khung);
@@ -33,8 +28,6 @@
             text-align: center;
             box-sizing: border-box;
         }
-
-        /* Tiêu đề BỐN MÙA trên dải băng hồng */
         h1 {
             color: var(--mau-do);
             background-color: var(--nen-tieu-de);
@@ -44,15 +37,11 @@
             padding: 6px 0;
             margin: 0 0 20px 0;
         }
-
-        /* Định dạng chung cho cả 3 khổ thơ */
         p {
             font-style: italic;
             line-height: 1.7;
             margin: 14px 0;
         }
-
-        /* Màu chữ riêng cho từng khổ */
         .kho-xanh {
             color: var(--mau-xanh);
         }
@@ -60,8 +49,6 @@
         .kho-do {
             color: var(--mau-do);
         }
-
-        /* Đường kẻ ngang ngăn cách giữa các khổ thơ */
         hr {
             width: 55%;
             border: none;
@@ -74,29 +61,23 @@
 
     <article class="khung-tho">
         <h1>BỐN MÙA</h1>
-
         <p class="kho-xanh">
             Xuân về hoa nở khắp trời<br>
             Hạ sang nắng cháy rạng ngời phố quen<br>
             Thu về lá rụng bên thềm
         </p>
-
         <hr>
-
         <p class="kho-do">
             Đông sang gió lạnh bên em đợi chờ<br>
             Bốn mùa là bốn giấc mơ<br>
             Thời gian đi mãi ta chờ đợi ai
         </p>
-
         <hr>
-
         <p class="kho-xanh">
             Một năm rồi lại một năm<br>
             Vẫn còn câu hát thì thầm quê hương<br>
             Chờ xuân nắng mới soi đường
         </p>
     </article>
-
 </body>
 </html>
